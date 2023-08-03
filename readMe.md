@@ -1,13 +1,13 @@
 
-** CONNECT REACT TO NODEJS AND MONGODB @PS **
+# CONNECT REACT TO NODEJS AND MONGODB @PS 
 
-** > Make sure you have made frontend before reading and started following this document!!!
+## Make sure you have made frontend before reading and started following this document!!!
 
-! Commands after first making the node server folder 
+#### Commands after first making the node server folder 
 
  * npm init -y 
 
- ? make one new file -- index.js 
+#### make one new file -- index.js 
 
  * npm install express 
 
@@ -18,12 +18,12 @@ const express = require('express');
 
  ? Make a server now inside index.js 
 
- ? Code 
+ ### Code 
 
 const server = express();
  initializes express and makes a server 
 
- ? Make one listening event, and give it two parameters, first one is -- port number and second one is the function 
+ #### Make one listening event, and give it two parameters, first one is -- port number and second one is the function 
 
 server.listen(8080, () => {
     console.log('Server Started')
